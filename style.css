@@ -1,5 +1,5 @@
 body {
-    background-color: #19241b;
+    background-color: #1e1924;
 }
 
 .logo {
@@ -11,15 +11,18 @@ body {
 }
 
 header {
+    align-items: center;
     background-image: url(images/mainMobile.png);
     background-size: cover;
-    height: 200px;
+    color: white;
+    display: flex;
     font-family: 'Zen Antique Soft', serif;
+    font-size: 70px;
+    height: 200px;
+    justify-content: center;
+    text-shadow: 3px 3px #1e1924;
 }
 
-h1 {
-    color: white;
-}
 
 main {
     background-color: white;
@@ -34,6 +37,7 @@ main {
     
     header {
         background-image: url(images/mainDesktop.png);
+        font-size: 150px;
         height: 400px;
     }
 

@@ -14,6 +14,7 @@ header {
     background-image: url(images/mainMobile.png);
     background-size: cover;
     height: 200px;
+    font-family: 'Zen Antique Soft', serif;
 }
 
 h1 {

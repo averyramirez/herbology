@@ -1,0 +1,43 @@
+body {
+    background-color: #19241b;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar-brand {
+    margin-left: 0px;
+}
+
+header {
+    background-image: url(images/mainMobile.png);
+    background-size: cover;
+    height: 200px;
+}
+
+h1 {
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 600px) {
+    .navbar-brand {
+        margin-left: 200px;
+    }
+    
+    header {
+        background-image: url(images/mainDesktop.png);
+        height: 400px;
+    }
+
+    main {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}

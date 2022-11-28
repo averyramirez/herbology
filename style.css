@@ -64,8 +64,8 @@ h2 {
 }
 
 .aboutUs {
-    margin: 50px;
-    font-size: 20px;
+    margin: 20px;
+    font-size: 18px;
 }
 
 .navIcon {
@@ -125,13 +125,25 @@ h2 {
     background-color: #1e1924 !important;
 }
 
+.offcanvas-body {
+    font-size: 32px;
+}
+
+.offcanvas-title {
+    font-size: 36px;
+}
+
 .categoryText {
     font-weight: bold;
 }
 
 .descriptiveLogo {
     margin-right: 5px;
-    width: 20px;
+    width: 40px;
+}
+
+li {
+    font-size: 18px;
 }
 
 footer {
@@ -156,6 +168,11 @@ footer {
     main {
         margin-left: 200px;
         margin-right: 200px;
+    }
+
+    .aboutUs {
+        margin: 50px;
+        font-size: 20px;
     }
 
     .navIcon {

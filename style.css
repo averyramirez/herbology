@@ -87,6 +87,18 @@ h2 {
     text-decoration: none;
 }
 
+.links {
+    color: rgb(12, 0, 41);
+    font-size: 18px;
+    margin: 1px;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: black;
+    font-size: 19px;
+}
+
 .associationsLink {
     color: #1e1924;
     font-size: 25px;
@@ -98,8 +110,28 @@ h2 {
 
 }
 
+.herbsLink {
+    color: #1e1924;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.herbsLink:hover {
+    color: black;
+
+}
+
 .offcanvas {
     background-color: #1e1924 !important;
+}
+
+.categoryText {
+    font-weight: bold;
+}
+
+.descriptiveLogo {
+    margin-right: 5px;
+    width: 20px;
 }
 
 footer {
@@ -131,4 +163,8 @@ footer {
         margin: 10px;
     }
 
+    .links {
+        font-size: 20px;
+        margin: 5px;
+    }
 }

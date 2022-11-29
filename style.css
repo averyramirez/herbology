@@ -10,6 +10,10 @@ body {
     margin-left: 0px;
 }
 
+.nav-item {
+    list-style-type: none;
+}
+
 .nav-link {
     font-size: 20px;
 }
@@ -155,20 +159,20 @@ footer {
 
 @media (min-width: 800px) {
     .navbar-brand {
-        margin-left: 200px;
+        margin-left: 250px;
     }
     
     header {
         background-image: url(images/mainDesktop.png);
         font-size: 100px;
         height: 400px;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
 
     main {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
 
     .aboutUs {

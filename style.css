@@ -91,16 +91,27 @@ h2 {
     text-decoration: none;
 }
 
-.links {
+.scrollLinks {
     color: rgb(12, 0, 41);
     font-size: 18px;
     margin: 1px;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+.inactiveLink {
+    color: rgb(65, 65, 65);
+    margin: 1px;
+}
+
+.links {
+    color:rgb(12, 0, 41);
+    margin: 1px;
+    text-decoration: none !important;
 }
 
 .links:hover {
     color: black;
-    font-size: 19px;
+    text-decoration: none;
 }
 
 .associationsLink {
@@ -185,8 +196,23 @@ footer {
         margin: 10px;
     }
 
-    .links {
-        font-size: 20px;
+    .scrollLinks {
+        color: rgb(12, 0, 41);
+        font-size: 30px;
         margin: 5px;
+        text-decoration: none !important;
+    }
+
+    .inactiveLink {
+        margin: 5px;
+    }
+
+    .links {
+        margin: 5px;
+    }
+
+    .links:hover {
+        color: rgb(49, 3, 110);
+        text-shadow: 1px 1px black;
     }
 }

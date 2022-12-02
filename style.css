@@ -91,6 +91,21 @@ h2 {
     text-decoration: none;
 }
 
+.breadcrumbs {
+    font-size: 20px;
+}
+
+.breadcrumbsLink {
+    color:rgb(12, 0, 41);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.breadcrumbsLink:hover {
+    color: rgb(49, 3, 110);
+    text-shadow: 1px 1px black;
+}
+
 .scrollLinks {
     color: rgb(12, 0, 41);
     font-size: 18px;

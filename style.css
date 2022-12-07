@@ -48,6 +48,7 @@ main {
     background-color: white;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 20px;
 }
 
 .padding-0{
@@ -62,7 +63,6 @@ main {
 .row {
     align-items: center;
     display: flex;
-    margin-left: 25px;
 }
 
 h2 {
@@ -191,6 +191,10 @@ footer {
     margin-top: 10px;
 }
 
+#herbRow {
+    margin-left: 20px;
+}
+
 
 @media (min-width: 800px) {
     .navbar-brand {
@@ -208,7 +212,7 @@ footer {
     main {
         margin-left: 250px;
         margin-right: 250px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
 
     h1 {
@@ -228,13 +232,10 @@ footer {
     .largeLogo {
         margin-bottom: 0px;
     }
+
     .navIcon {
         width: 10%;
         margin: 10px;
-    }
-
-    .row {
-        margin-left: 75px;
     }
 
     .scrollLinks {
@@ -255,5 +256,9 @@ footer {
     .links:hover {
         color: rgb(49, 3, 110);
         text-shadow: 1px 1px black;
+    }
+
+    #herbRow {
+        margin-left: 80px;
     }
 }

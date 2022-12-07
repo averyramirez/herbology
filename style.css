@@ -37,6 +37,12 @@ header {
     text-shadow: 3px 3px #1e1924;
 }
 
+h1 {
+    font-family: 'Zen Antique Soft', serif !important;
+    margin-left: 10px;
+    text-shadow: 1px 1px #1e1924;
+}
+
 
 main {
     background-color: white;
@@ -56,6 +62,7 @@ main {
 .row {
     align-items: center;
     display: flex;
+    margin-left: 25px;
 }
 
 h2 {
@@ -204,6 +211,7 @@ footer {
 
     h1 {
         margin-top: 15px;
+        margin-left: 50px;
     }
 
     .aboutUs {
@@ -217,6 +225,10 @@ footer {
     .navIcon {
         width: 10%;
         margin: 10px;
+    }
+
+    .row {
+        margin-left: 75px;
     }
 
     .scrollLinks {

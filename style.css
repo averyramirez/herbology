@@ -23,9 +23,9 @@ body {
     text-shadow: 1px 1px grey;
 }
 
-header {
+.homeHeader {
     align-items: center;
-    background-image: url(images/mainMobile.png);
+    background-image: url(images/homeMobile.png);
     background-size: cover;
     color: white;
     display: flex;
@@ -36,6 +36,50 @@ header {
     letter-spacing: 5px;
     text-shadow: 3px 3px #1e1924;
 }
+
+.herbsHeader {
+    align-items: center;
+    background-image: url(images/herbsMobile.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 55px;
+    height: 200px;
+    justify-content: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px #1e1924;
+}
+
+.associationsHeader {
+    align-items: center;
+    background-image: url(images/associationsMobile.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 55px;
+    height: 200px;
+    justify-content: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px #1e1924;
+}
+
+.aboutHeader {
+    align-items: center;
+    background-image: url(images/aboutMobile.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 55px;
+    height: 200px;
+    justify-content: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px #1e1924;
+}
+
+
 
 h1 {
     font-family: 'Zen Antique Soft', serif !important;
@@ -68,6 +112,10 @@ h2 {
     font-size: 50px;
 }
 
+.tagline {
+    font-family: 'Zen Antique Soft', serif !important;
+}
+
 .largeLogo {
     width: 20%;
     opacity: 0.7;
@@ -94,8 +142,8 @@ h2 {
 
 .pageLink:hover {
     color: black;
-    font-size: 26px;
     text-decoration: none;
+    text-shadow: 1px 1px #311f47;
 }
 
 .breadcrumbs {
@@ -195,14 +243,56 @@ footer {
     margin-left: 20px;
 }
 
+.aboutUsHeader {
+    font-family: 'Zen Antique Soft', serif !important;
+    font-size: 55px;
+    margin-top: 20px;
+    text-shadow: 1px 1px #311f47;
+}
+
+.aboutUsParagraph {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.creditsParagraph {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 @media (min-width: 800px) {
     .navbar-brand {
         margin-left: 250px;
     }
     
-    header {
-        background-image: url(images/mainDesktop.png);
+    .homeHeader {
+        background-image: url(images/homeDesktop.png);
+        font-size: 100px;
+        height: 400px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .herbsHeader {
+        background-image: url(images/herbsDesktop.png);
+        font-size: 100px;
+        height: 400px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+
+    .associationsHeader {
+        background-image: url(images/associationsDesktop.png);
+        font-size: 100px;
+        height: 400px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .aboutHeader {
+        background-image: url(images/aboutDesktop.png);
         font-size: 100px;
         height: 400px;
         margin-left: 250px;
@@ -222,6 +312,17 @@ footer {
     .aboutUs {
         margin: 50px;
         font-size: 20px;
+    }
+
+    .aboutUsHeader {
+        font-size: 70px;
+    }
+
+    .aboutUsParagraph {
+        font-size: 26px;
+        margin-bottom: 50px;
+        margin-left: 300px;
+        margin-right: 300px;
     }
 
     .breadcrumbs {
